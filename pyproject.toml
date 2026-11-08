@@ -9,9 +9,11 @@ authors = [
 requires-python = ">=3.14"
 dependencies = [
     "black>=26.10.1",
+    "httpx[socks]>=0.28.1",
     "isort>=9.0.2",
     "langchain>=1.4.9",
     "langchain-openai>=1.7.4",
+    "langchain-openrouter",
     "numpy",
     "python-dotenv>=1.2.4",
 ]
