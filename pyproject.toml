@@ -1,0 +1,19 @@
+[project]
+name = "langchain-hello"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ali Moslemi", email = "gitlab_admin_f15eb4@example.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy",
+]
+
+[project.scripts]
+langchain-hello = "langchain_hello:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
